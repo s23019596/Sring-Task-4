@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  padding: 0 10px 0 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: steelblue;
+  color: white;
+  font-family: Arial;
+}

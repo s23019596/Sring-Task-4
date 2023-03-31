@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css_4_1.css">
+  <title>Spring Task 4_2</title>
+</head>
+<body>
+<div class="header">
+  <div style="margin: 5px">
+    <h3>TWITTER</h3>
+  </div>
+  <div style="display: flex; margin: 5px;color: lightblue">
+    <h5>Tweets</h5>
+    <div id="headl">
+      <button id="login" onClick="login()" style="background-color: steelblue;color: lightblue; border: steelblue;">
+        <h5 style="padding-left: 10px;padding-top: 4px;">Login</h5>
+      </button>
+    </div>
+    <div id="headr">
+      <button id="register" onClick="register()" style="background-color: steelblue;color: lightblue; border: steelblue;">
+        <h5 style="padding-left: 10px;padding-top: 4px;">Register</h5>
+      </button>
+    </div>
+  </div>
+</div>
+<div style="text-align: start; padding-left: 570px; font-family: Arial">
+  <form onsubmit="checkPassword()">
+    <div id="welcome"></div>
+    <div id="divemail">
+      <div style="padding-top: 20px">
+        EMAIL:
+      </div><br>
+      <input id="email" type="email" style="width: 360px; height: 30px"><br><br>
+    </div>
+    <div id="divpassword">
+      <div>
+        PASSWORD:
+      </div><br>
+      <input id="password" type="password" style="width: 360px; height: 30px"><br><br>
+    </div>
+    <div id="divname"></div>
+    <div id="divcountry"></div>
+    <div id="divdate">
+    </div>
+    <button id="button" type="reset" onClick="checkPassword()" style="background-color: darkblue; color: white;height: 28px">SIGN IN</button>
+  </form>
+</div>
+</body>
+<script type="text/javascript" src="Js4_1.js"></script>
+</html>

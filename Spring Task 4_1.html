@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css_4_1.css">
+  <title>Spring Task 4_1</title>
+</head>
+<body>
+<div class="header">
+  <div style="margin: 5px">
+    <h3>TWITTER</h3>
+  </div>
+  <div style="display: flex; margin: 5px;color: lightblue">
+    <h5>Tweets</h5>
+    <button id="login" onClick="login()" style="background-color: steelblue;color: lightblue; border: steelblue;">
+      <h5 style="padding-left: 10px">Login</h5>
+    </button>
+    <button id="register" onClick="register()" style="background-color: steelblue;color: lightblue; border: steelblue;">
+      <h5 style="padding-left: 10px">Register</h5>
+    </button>
+  </div>
+</div>
+<div style="text-align: start; padding-left: 570px; font-family: Arial">
+  <div style="padding-top: 20px">
+    EMAIL:
+  </div><br>
+  <div id="divemail"><input type="email" id="email" style="width: 360px; height: 30px"><br><br></div>
+  <div>
+    PASSWORD:
+  </div><br>
+  <div id="divpassword">
+    <input type="password" id="password" style="width: 360px; height: 30px"><br><br></div>
+  <div>
+    FULL NAME:
+  </div><br>
+  <div id="divname">
+    <input type="text" id="name" style="width: 360px; height: 30px"><br><br></div>
+  <div>
+    COUNTRY:
+  </div><br>
+  <div id="divcountry">
+    <select id="country" style="width: 368px; height: 38px">
+      <option selected="selected">Kazakhstan</option>
+      <option>Italy</option>
+      <option>France</option>
+      <option>Spain</option>
+      <option>England</option>
+      <option>Turkey</option>
+    </select><br><br></div>
+  <div>
+    BIRTHDATE:
+  </div><br>
+  <div id="divdate">
+    <input id="date" style="width: 368px; height: 38px" type="date"><br><br>
+  </div>
+  <div id="button">
+    <button onclick="saveDraft()" style="background-color: darkblue; color: white;height: 28px">REGISTER</button></div>
+</div>
+</body>
+<script type="text/javascript" src="Js4_1.js"></script>
+</html>
